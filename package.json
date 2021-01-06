@@ -1,5 +1,5 @@
 {
-  "name": "vicecode-template",
+  "name": "gulp-psi",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
@@ -46,18 +46,14 @@
     "gulp-ttf2woff2": "^3.0.0",
     "gulp-uglify": "^3.0.2",
     "gulp-util": "^3.0.8",
-    "gulp-w3c-html-validator": "^2.0.0",
-    "gulp.spritesmith": "^6.11.0",
     "merge-stream": "^2.0.0",
     "node-sass": "^4.13.1",
-    "pageres": "^5.2.1",
     "stylelint": "^13.2.1",
     "stylelint-config-standard-scss": "^1.1.0",
     "stylelint-scss": "^3.15.0"
   },
   "dependencies": {
     "psi": "^4.0.1",
-    "svg4everybody": "^2.1.9",
     "vinyl-buffer": "^1.0.1"
   }
 }

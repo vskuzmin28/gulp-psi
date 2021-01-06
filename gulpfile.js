@@ -1,5 +1,5 @@
 const gulp = require('gulp')
 
-// const pagespeed = require('./gulp/tasks/pagespeed')
+const pagespeed = require('./gulp/tasks/pagespeed')
 
-// exports.pagespeed = pagespeed
+exports.pagespeed = pagespeed

@@ -1,3 +1,3 @@
-const website = 'vicecode.ru'
+const website = 'mail.ru'
 
 module.exports = {website}

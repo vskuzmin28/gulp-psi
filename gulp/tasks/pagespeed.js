@@ -27,11 +27,3 @@ module.exports = pagespeed = () => {
         compute(website)
     })
 }
-
-exports = mobile = () => psi
-    return psi(website, {
-        nokey: 'true',
-        strategy: 'mobile'
-    }).then((website) => {
-        compute(website)
-    })
