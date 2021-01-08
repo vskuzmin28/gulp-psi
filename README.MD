@@ -1,12 +1,12 @@
 gulp-psi
 ===============
 
-Example [Gulp](http://gulpjs.com)v4 project using [PSI](https://github.com/addyosmani/psi)
+Example [Gulp](http://gulpjs.com) v4 project using [PSI](https://github.com/addyosmani/psi)
 
 ## Install
 
 ```sh
-$ git clone git://github.com/addyosmani/psi-gulp-sample.git
+$ git clone git://github.com/addyosmani/gulp-psi.git
 $ cd gulp-psi
 $ npm install
 ```
@@ -19,9 +19,9 @@ Before starting the task, you need to change the url
 const website = 'example.com'
 ```
 
-## Run tasks
+## Run task
 
-### PageSpeed (All strategies)
+This command runs an assessment in both strategies
 
 ```sh
 $ gulp
