@@ -6,7 +6,7 @@ Example [Gulp](http://gulpjs.com) v4 project using [PSI](https://github.com/addy
 ## Install
 
 ```sh
-$ git clone git://github.com/addyosmani/gulp-psi.git
+$ git clone git://github.com/vskuzmin28/gulp-psi.git
 $ cd gulp-psi
 $ npm install
 ```
