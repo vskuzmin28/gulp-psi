@@ -1,9 +1,3 @@
-sudo: false
-
 language: node_js
-node_js:
-  - 9
-
-branches:
-  only:
-    - master
+rvm:
+  - 12
