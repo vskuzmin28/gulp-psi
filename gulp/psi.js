@@ -3,7 +3,7 @@ const chalk = require('chalk')
 
 const website = 'example.com'
 
-const line = '---------------------------'
+const line = '-'.repeat(26)
 
 let output = (website) => {
     const result = JSON.stringify(website.data.lighthouseResult.categories.performance.score)
@@ -12,11 +12,11 @@ let output = (website) => {
 
     let color = chalk.yellow
     color = realScore <= 50 ? chalk.red : color
-    color = realScore >= 80 ? chalk.yellow : color
+    color = realScore >= 80 ? chalk.green : color
 
-    console.log('URL:'.padEnd(20) + chalk.blue(JSON.parse(JSON.stringify(website.config.params.url).replace(/https?:\/\//, ''))))
-    console.log('Strategy:'.padEnd(20) + chalk.blue(JSON.parse(JSON.stringify(website.config.params.strategy))))
-    console.log('Performance:'.padEnd(20) + color(JSON.stringify(realScore)))
+    console.log('URL:'.padEnd(15) + chalk.blue(JSON.parse(JSON.stringify(website.config.params.url).replace(/https?:\/\//, ''))))
+    console.log('Strategy:'.padEnd(15) + chalk.blue(JSON.parse(JSON.stringify(website.config.params.strategy))))
+    console.log('Performance:'.padEnd(15) + color(JSON.stringify(realScore)))
 }
 
 module.exports = pagespeed = async () => {
