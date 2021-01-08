@@ -1,4 +1,4 @@
-gulp-psi
+gulp-psi [![Build Status](https://travis-ci.com/vskuzmin28/gulp-psi.svg?branch=master)](https://travis-ci.com/vskuzmin28/gulp-psi)
 ===============
 
 Example [Gulp](http://gulpjs.com) v4 project using [PSI](https://github.com/addyosmani/psi)
