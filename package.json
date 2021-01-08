@@ -4,15 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "gulp",
-    "build": "gulp --prod",
+    "start": "gulp"
   },
   "author": "Vitaly Kuzmin (vskuzmin28)",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^4.0.2",
+    "gulp": "^4.0.2"
   },
   "dependencies": {
-    "psi": "^4.0.1",
+    "psi": "^4.0.1"
   }
 }

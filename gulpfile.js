@@ -1,5 +1,9 @@
 const gulp = require('gulp')
+const mobile = require('./gulp/tasks/psi/mobile')
+const desktop = require('./gulp/tasks/psi/desktop')
 
-const pagespeed = require('./gulp/tasks/pagespeed')
+const psi = gulp.parallel(desktop, mobile)
 
-exports.pagespeed = pagespeed
+exports.default = gulp.parallel(
+    psi
+)
