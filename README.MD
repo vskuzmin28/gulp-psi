@@ -18,5 +18,5 @@ $ npm install
 Before starting the task, you need to change the url in terminal
 
 ```sh
-set SITE=example.ru && gulp
+set SITE=example.com && gulp
 ```
