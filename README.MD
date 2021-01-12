@@ -15,7 +15,7 @@ $ npm install
 
 ## Settings and Run
 
-Before starting the task, you need to change the url in terminale
+Before starting the task, you need to change the url in terminal
 
 ```sh
 set SITE=example.ru && gulp
