@@ -10,3 +10,4 @@ before_script:
 script: 
   - set SITE=vicecode.ru
   - npm run psi
+  - npm run gulp

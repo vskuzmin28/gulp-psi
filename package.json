@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "psi": "cross-env SITE=example.com"
+    "psi": "cross-env SITE=example.com",
+    "start": "gulp"
   },
   "author": "Vitaly Kuzmin (vskuzmin28)",
   "license": "ISC",
