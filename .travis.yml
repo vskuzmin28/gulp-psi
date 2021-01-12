@@ -8,4 +8,5 @@ before_script:
   - npm install
 
 script: 
-  - set SITE=vicecode.ru && gulp
+  - set SITE=vicecode.ru
+  - npm run psi
