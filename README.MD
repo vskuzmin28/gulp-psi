@@ -13,18 +13,10 @@ $ cd gulp-psi
 $ npm install
 ```
 
-## Settings
+## Settings and Run
 
-Before starting the task, you need to change the url
-
-```sh
-const website = 'example.com'
-```
-
-## Run task
-
-This command runs an assessment in both strategies
+Before starting the task, you need to change the url in terminal
 
 ```sh
-$ gulp
+set SITE=example.com && gulp
 ```
