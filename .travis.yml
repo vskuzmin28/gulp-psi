@@ -7,6 +7,6 @@ before_script:
   - npm install -g gulp
   - npm install
 
-script: 
-  - set SITE=vicecode.ru
+script:
+  - SITE=zalupa.com
   - npm run psi
