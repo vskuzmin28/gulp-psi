@@ -6,4 +6,5 @@ node_js:
 before_script:
   - npm install -g gulp
 
-script: gulp
+script: 
+  - set SITE=vicecode.ru && gulp

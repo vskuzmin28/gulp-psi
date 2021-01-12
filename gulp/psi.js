@@ -1,7 +1,7 @@
 const psi = require('psi')
 const chalk = require('chalk')
 
-const website = 'example.com'
+const website = process.env.SITE
 
 const line = '-'.repeat(26)
 

@@ -1,14 +1,15 @@
 {
   "name": "gulp-psi",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "gulp"
+    "psi": "cross-env SITE=example.com && gulp"
   },
   "author": "Vitaly Kuzmin (vskuzmin28)",
   "license": "ISC",
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "gulp": "^4.0.2"
   },
   "dependencies": {
